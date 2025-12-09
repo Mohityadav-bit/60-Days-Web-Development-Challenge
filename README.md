@@ -7,4 +7,5 @@ Each day, I will create a small project and document my progress.
 
 - **Day 01:** Number Analyzer Tool (HTML, CSS, JS)
 - **Day 02:** My To-Do List
-- **DAy 03:** Product Inventory Tracker
+- **Day 03:** Product Inventory Tracker
+- **Day 04:**Theme Toggle and Mood Progress Bar
