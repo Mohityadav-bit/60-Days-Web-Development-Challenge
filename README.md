@@ -10,3 +10,4 @@ Each day, I will create a small project and document my progress.
 - **Day 03:** Product Inventory Tracker
 - **Day 04:** Theme Toggle and Mood Progress Bar
 - **Day 05:** Eamil and Password Validator
+- **Day 6:**  Pomodoro Timer
