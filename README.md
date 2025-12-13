@@ -12,3 +12,4 @@ Each day, I will create a small project and document my progress.
 - **Day 05:** Eamil and Password Validator
 - **Day 06:** Pomodoro Timer
 - **Day 07:** Mood Theme Switcher
+- **Day 08:** User Search
