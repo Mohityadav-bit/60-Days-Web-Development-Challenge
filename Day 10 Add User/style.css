@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #222, #000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-container {
+    width: 100%;
+    max-width: 1100px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.form-card {
+    width: 380px;
+    margin: auto;
+    background: linear-gradient(180deg, #2b2b2b, #1f1f1f);
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .8);
+}
+
+.form-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 13px;
+    margin-bottom: 6px;
+    color: #aaa;
+}
+
+.form-group input,
+.form-group textarea {
+    background: #3a3a3a;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    color: #fff;
+    outline: none;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 80px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #2a2a2a;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background: #3a3a3a;
+}
+
+
+.cards-container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+
+.user-card {
+    background: linear-gradient(180deg, #2b2b2b, #1e1e1e);
+    border-radius: 16px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(0, 0, 0, .7);
+}
+
+.user-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.user-card h3 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.user-card span {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.user-card p {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #bbb;
+}
+
+.remove-btn {
+    margin-top: 15px;
+    padding: 8px 12px;
+    background: #3a3a3a;
+    border: 1px solid #555;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.remove-btn:hover {
+    background: #ff4d4d;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add User UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<div class="main-container">
+
+  <!-- ===== ADD USER FORM ===== -->
+  <form id="userForm">
+    <div class="form-card">
+      <h2>Add User</h2>
+
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Enter name">
+      </div>
+
+      <div class="form-group">
+        <label>Role</label>
+        <input type="text" id="role" placeholder="Enter role">
+      </div>
+
+      <div class="form-group">
+        <label>Bio</label>
+        <textarea id="bio" placeholder="Write short bio..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Photo URL</label>
+        <input type="text" id="photo" placeholder="Paste image URL">
+      </div>
+
+      <button type="submit">Add User</button>
+    </div>
+  </form>
+
+  <!-- ===== USER CARDS ===== -->
+  <div class="cards-container"></div>
+ 
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
