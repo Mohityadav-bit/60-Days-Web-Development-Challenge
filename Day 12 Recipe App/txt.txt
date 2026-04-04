@@ -1,0 +1,18 @@
+recipe-app/
+│
+├── index.html
+│
+├── /css
+│   └── style.css
+│
+├── /js
+│   ├── app.js
+│   ├── router.js
+│   │
+│   ├── /modules
+│   │   ├── pasta.js
+│   │   ├── soup.js
+│   │   └── cookies.js
+│
+└── /assets
+    └── (images optional)
