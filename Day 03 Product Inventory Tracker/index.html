@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Inventory Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Product Inventory Tracker</h1>
+        <div class="input">
+            <input type="text" id="pName"  placeholder="Enter the Product Name">
+            <input type="number" id="price" min="1"  placeholder="Enter the Price">
+            <input type="number" id="qty" min="1"  placeholder="Enter the Quantity">
+            <button class="btn" onclick="addProduct()">Add Product</button>
+        </div>
+        <h2>Product List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price (₹)</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="productTable"></tbody>
+        </table>
+
+        <div class="total-value">
+            Total Inventory Value: <span id="inventoryValue">₹0</span>
+        </div>
+    </div>
+
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
