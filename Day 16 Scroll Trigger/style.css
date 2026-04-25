@@ -1,0 +1,82 @@
+@font-face {
+    font-family:chai ;
+    src: url(NeueMachina-Regular_DQCmjH1st.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/* body{
+    background-color: #1111;
+}
+
+#page1, #page2, #page3{
+    height: 100%;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#move{
+    overflow: hidden;
+    background-color: lawngreen;
+    display: flex;
+    padding: 3vw 0;
+}
+
+.marque{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    transform: translateX(-100%);
+}
+.marque h1{
+    font-size: 4vw;
+    font-family: chai;
+}
+.marque i{
+    font-size: 4vw;
+} */
+
+
+
+body {
+  background-color: #111; /* #1111 is invalid */
+}
+#page1, #page2, #page3{
+    height: 100%;
+    width: 100%;
+    padding: 5px 10px;
+}
+#move {
+  overflow: hidden;
+  background-color: lawngreen;
+  display: flex;
+  white-space: nowrap;
+}
+
+.marque {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  padding: 0 1.5vw;
+}
+
+.marque h1,
+.marque i {
+  font-size: 4vw;
+  font-family: chai;
+}
