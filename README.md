@@ -15,3 +15,9 @@ Each day, I will create a small project and document my progress.
 - **Day 08:** User Search
 - **Day 09:** Calculator
 - **Day 10:** Add User
+-- **Day 11:** Snake Game
+-- **Day 12:** Recipe App
+-- **Day13:** Kanban board
+-- **Day14:** Kanban board
+-- **Day15:** Custom Cursor
+-- **Day16:** Scroll Trigger
