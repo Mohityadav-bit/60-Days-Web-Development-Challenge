@@ -1,0 +1,404 @@
+@font-face {
+    font-family: chai;
+    src: url(./assests/NeueMachina-Regular_DQCmjH1st.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+nav {
+    padding: 25px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav h1 i {
+    rotate: 45deg;
+    display: inline-block;
+}
+
+nav h1 {
+    font-size: 40px;
+
+}
+
+nav h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav button {
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.center {
+    padding: 100px;
+    height: 80%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+}
+
+.center-part1 {
+    /* background-color: aqua; */
+    height: 100%;
+    width: 44%;
+}
+
+.center-part1 h1 {
+    line-height: 1.2;
+    font-size: 50px;
+    /* background-color: red; */
+    font-family: chai;
+    /* font-weight: 300; */
+}
+
+.center-part1 p {
+    line-height: 1.2;
+    font-size: 19px;
+    /* width: 92%; */
+    /* background-color: red; */
+    font-family: chai;
+    /* font-weight: 300; */
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.center-part1 button {
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(8, 8, 8);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.center-part2 {
+    /* background-color: rgb(154, 160, 160); */
+    height: 100%;
+    width: 56%;
+    position: relative;
+}
+
+.center-part2 img {
+    position: absolute;
+    right: 0;
+    /* width: 100%; */
+    height: 100%;
+}
+
+.sectionBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+
+.sectionBottom img {
+    height: 70px;
+}
+
+.sectionBottom img .ama {
+    height: 20px;
+}
+
+/* .main2{
+    
+} */
+.services,
+.case-study {
+    margin-top: 150px;
+    display: flex;
+    padding: 4px 120px;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: red; */
+    gap: 20px;
+}
+/* .case-study, */
+.services h2 {
+    background-color: #B9FF66;
+    font-weight: 500;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: chai;
+}
+/* .case-study, */
+.services p {
+    width: 55%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container {
+    height: 95%;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.elem {
+    flex-shrink: 0;
+    height: 250px;
+    width: 47%;
+    /* background-color: red; */
+    border: 3px solid black;
+    border-radius: 50px;
+    box-shadow: 0 15px 0 black;
+    padding: 60px;
+    display: flex;
+}
+
+.black {
+    background-color: rgb(3, 3, 3);
+}
+
+.elem .part1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.elem .part1 h2 {
+    font-family: chai;
+    font-size: 25px;
+    background-color: #B9FF66;
+    font-weight: 500;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+.elem .part1 h4 {
+
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    gap: 5px;
+    /* scale: 1; */
+}
+
+.elem .part1 h4 i {
+    padding: 10px;
+    background-color: #030303;
+    color: #B9FF66;
+    border-radius: 50%;
+    cursor: pointer;
+    /* scale: 1; */
+}
+
+.elem .part2 {
+    height: 100%;
+    width: 50%;
+}
+
+
+.elem .part2 img {
+    height: 100%;
+}
+
+.black .part1 h2 {
+    font-family: chai;
+    font-size: 25px;
+    background-color: #ffffff;
+    font-weight: 500;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+.black .part1 h4 {
+
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    gap: 5px;
+    /* scale: 1; */
+}
+
+.black .part1 h4 i {
+    padding: 10px;
+    background-color: #ffffff;
+    color: #070707;
+    border-radius: 50%;
+    cursor: pointer;
+    /* scale: 1; */
+}
+
+
+/* Section 3 */
+.main3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+
+.main3 .gray {
+    padding: 25px 40px;
+    background-color: rgb(204, 203, 203);
+    height: 250px;
+    width: 82%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main3 .gray .left {
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 50px;
+    gap: 20px;
+}
+
+
+.gray .left h2 {
+    /* background-color: #0c0c0c; */
+    font-weight: 500;
+    font-size: 30px;
+    font-family: chai;
+}
+
+.gray .left h4 {
+    font-weight: 300;
+
+}
+
+.gray .left button {
+    padding: 10px 40px;
+    background-color: #0c0c0c;
+    color: #fffefe;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 18px;
+    font-family: chai;
+}
+
+
+.main3 .gray .right {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* background-color: #B9FF66; */
+    height: 100%;
+    left: 0;
+    padding-left: 250px;
+}
+
+.right img {
+    height: 100%;
+}
+
+/* Case study section */
+.case-study {
+  width: 100%;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Header */
+.case-header {
+  max-width: 700px;
+  margin-bottom: 2rem;
+}
+
+.case-header .badge {
+  background: #c7ff3d;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.case-header p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Cards Wrapper */
+.case-cards {
+  display: flex;
+  align-items: stretch;
+  background: #111;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+/* Card */
+.case-card {
+  flex: 1;
+  padding: 1rem 1.5rem;
+}
+
+.case-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.case-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Divider */
+.divider {
+  width: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
