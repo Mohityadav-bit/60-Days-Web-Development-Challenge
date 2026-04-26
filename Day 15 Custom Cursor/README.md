@@ -4,7 +4,7 @@
 Custom animated cursor for better UI feel.
 
 ## 🛠️ Tech
-HTML, CSS, JavaScript
+HTML, CSS, JavaScript, Gsap
 
 ## 📚 Learned
 - Mouse events

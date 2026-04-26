@@ -23,3 +23,4 @@ Each day, I build a small project and document my progress.
 - Day 14: Kanban Board
 - Day 15: Custom Cursor
 - Day 16: Scroll Trigger
+- Day 17: Animeted Webpage
