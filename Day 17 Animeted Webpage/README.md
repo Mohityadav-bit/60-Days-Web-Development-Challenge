@@ -1,5 +1,5 @@
 
-# Day 13 & 14 – Kanban Board
+# Day 17 – Animeted Webpage
 
 ## 🚀 Project
 Full Animeted webpage
