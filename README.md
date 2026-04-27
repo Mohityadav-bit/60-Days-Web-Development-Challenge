@@ -24,3 +24,4 @@ Each day, I build a small project and document my progress.
 - Day 15: Custom Cursor
 - Day 16: Scroll Trigger
 - Day 17: Animeted Webpage
+- Day 18: ShreyJs Project
