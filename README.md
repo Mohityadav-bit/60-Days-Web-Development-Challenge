@@ -29,3 +29,4 @@ Each day, I build a small project and document my progress.
 - Day 20: Brandbeet Clone
 - Day 21: Reactjs Project
 - Day 22: UI using Tailwind
+- Day 23: 
