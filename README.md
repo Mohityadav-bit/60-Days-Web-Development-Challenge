@@ -30,3 +30,4 @@ Each day, I build a small project and document my progress.
 - Day 21: Reactjs Project
 - Day 22: UI using Tailwind
 - Day 23: Notes App
+- Day 24: Gallery Project
