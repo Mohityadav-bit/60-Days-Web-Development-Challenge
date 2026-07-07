@@ -31,3 +31,5 @@ Each day, I build a small project and document my progress.
 - Day 22: UI using Tailwind
 - Day 23: Notes App
 - Day 24: Gallery Project
+- Day 25: Morden Website
+- Day 26: Morden Website
